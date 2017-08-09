@@ -1,0 +1,188 @@
+/*转圈动画部分*/
+/*body{*/
+/**/
+/*}*/
+
+.checkBoxClass{
+    display: none;
+}
+.audios{
+    position: relative;
+    width: 1920px;
+    height: 100px;
+    background:linear-gradient(rgba(0,0,0,.8) 80px,#fff);
+}
+.audios ul{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    height: 100px;
+}
+.audios ul li{
+    float: left;
+    line-height: 100px;
+    width: 100px;
+    height: 78px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.l_current{
+    border-bottom: 2px solid red;
+}
+
+
+#wrapper{
+    height: 1100px;
+    width: 1920px;
+    background:url("../img/bj3.jpg")no-repeat center -100px;
+    perspective:800px;
+    margin:0 auto;
+    /*opacity: 0;*/
+}
+#wrapper .bj{
+    width: 1600px;
+    height: 800px;
+    border-radius:50%;
+    background:radial-gradient(#000 500px ,transparent);
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -800px;
+}
+#photos{
+    width: 68px;/*宽度*/
+    height: 173px;
+    transform:rotateY(0deg);
+    transform-style:preserve-3d;/*设置3d环境*/
+
+    position: absolute;
+    top:400px;
+    left: 50%;
+    margin-left: -55px;
+}
+#photos #plate{
+    width:1200px;
+    height:1200px;
+    border-radius:50%;
+    position:absolute;
+    top:102%;
+    left:50%;
+    margin-left:-600px;
+    margin-top:-600px;
+    transform:rotateX(90deg);
+    background:-webkit-radial-gradient(center center,600px 600px,rgba(158,158,222,0.5),rgba(0,0,0,0));
+}
+#photos .img{
+    border:1px solid #ccc;  /*加一个灰色边框*/
+    width:100%;
+    height:100%;
+    position:absolute;
+    box-shadow: 1px -1px 6px #666;
+    border-radius:4px;
+    -webkit-box-reflect:below 5px -webkit-linear-gradient(rgba(0,0,0,0) 40%,rgba(0,0,0,0.5));
+    cursor:pointer;
+}
+
+#photos .font_img{
+    width: 400px;
+    height: 200px;
+    top:34px;
+    left:-79px;
+
+}
+/*技能条部分*/
+.cover{
+    width: 265px;
+    height: 470px;
+    padding: 30px;
+    background: url("../img/pf_cover.png")no-repeat left top;
+    position: absolute;
+    /*top:100px;*/
+    left: 200px;
+    opacity: 0;
+}
+.cover_r{
+    width: 500px;
+    height: 270px;
+    padding: 30px;
+    background: url("../img/pf_cover.png") left top;
+    position: absolute;
+    /*top:100px;*/
+    right: 150px;
+    color: #fff;
+    opacity: 0;
+    overflow: auto;
+}
+.cover-title{
+    font-size: 20px;
+    color: #009999;
+    line-height: 30px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.cover-name{
+    display: block;
+    color: whitesmoke;
+    font-size: 60px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+/*hero-sort.png*/
+.herodetail-sort {
+    width: 290px;
+    height: 70px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: block;
+}
+.herodetail-sort i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -9999em;
+    background-image: url(../img/hero-sort.png);
+    background-repeat: no-repeat;
+}
+.cover-list-text {
+    width: 62px;
+    height: 21px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 15px;
+    color: #009999;
+    background: #003333;
+    border-radius: 4px;
+}
+.cover-list li {
+    height: 24px;
+    vertical-align: top;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.cover-list-bar{
+    background: url(../img/hero_info.png) no-repeat;
+    width: 164px;
+    height: 21px;
+    margin-left: 4px;
+}
+.bar2 {
+    background-position: 0 -29px;
+}
+.bar3 {
+    background-position: 0 -57px;
+}
+.bar4 {
+    background-position: 0 -86px;
+}
+.ibar {
+    background: url(http://game.gtimg.cn/images/yxzj/web201605/page/hero_info.png) no-repeat -19px -134px;
+    height: 9px;
+    float: left;
+    margin: 6px 0 0 20px;
+}

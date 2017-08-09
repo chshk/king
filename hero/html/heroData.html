@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>王者荣耀</title>
+    <link rel="stylesheet" href="../css/firstPage.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/heroData_style.css"/>
+    <!--<script src="../js/jquery-1.8.3.min.js"></script>-->
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/jquery.fullPage.min.js"></script>
+    <script src="../js/jquery.slimscroll.min.js"></script>
+    <script src="../js/firstPage.js"></script>
+    <script src="../js/myanimate.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <!-- 第一页-->
+    <div class="section page1">
+        <!-- 导航栏 -->
+        <div class="nav">
+            <div class="center">
+                <h1 class="logo">
+                    <a href="">王者荣耀</a>
+                </h1>
+                <div class="s_subnav">
+                    <ul class="n_ul fl">
+                        <li><a class="n_a" href="../../index.html">
+                            官网首页
+                            <em>HOME</em>
+                        </a></li>
+                        <li><a class="n_a" href="../../pages/shipin.html">
+                            游戏资料
+                            <em>DATA</em></a>
+                            <ul class="xx">
+                                <li><a href="javascript:void(0)" target="_blank" title="版本介绍" onclick="pgvSendClick({hottag:'main.mainNav.nav20'});">版本介绍</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="游戏介绍" onclick="pgvSendClick({hottag:'main.mainNav.nav21'});">游戏介绍</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="英雄资料" onclick="pgvSendClick({hottag:'main.mainNav.nav22'});">英雄资料</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="故事站" onclick="TGDialogS('story');pgvSendClick({hottag:'main.mainNav.nav25'});">故事站</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="游戏壁纸" onclick="pgvSendClick({hottag:'main.mainNav.nav26'});">游戏壁纸</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="n_a" href="../../strategy.html">
+                            攻略中心
+                            <em>RAIDERS</em></a>
+                            <ul class="xx">
+                                <li><a href="javascript:void(0)" target="_blank" title="英雄攻略" onclick="pgvSendClick({hottag:'main.mainNav.nav31'});">英雄攻略</a></li>
+                                <li><a href="javascript:void(0)" title="视频中心" onclick="pgvSendClick({hottag:'main.mainNav.nav32'});">视频中心</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="n_a" href="">
+                            赛事中心
+                            <em>MATCH</em></a>
+                            <ul class="xx">
+                                <li><a href="javascript:void(0)" target="_blank" title="KPL职业联赛" onclick="pgvSendClick({hottag:'main.mainNav.nav41'});">KPL职业联赛</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="KOC王者城市赛" onclick="pgvSendClick({hottag:'main.mainNav.nav42'});">KOC王者城市赛</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="QGC夏季联赛" onclick="pgvSendClick({hottag:'main.mainNav.nav43'});">QGC夏季联赛</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="TGA大奖赛" onclick="pgvSendClick({hottag:'main.mainNav.nav44'});">TGA大奖赛</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="WGC精英赛" onclick="pgvSendClick({hottag:'main.mainNav.nav45'});">WGC精英赛</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="王者高校赛" onclick="pgvSendClick({hottag:'main.mainNav.nav46'});">王者高校赛</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="n_a" href="">
+                            社区互动
+                            <em>COMMUNITY</em></a>
+                            <ul class="xx">
+                                <li><a href="javascript:void(0)" target="_blank" title="手Q部落" onclick="pgvSendClick({hottag:'main.mainNav.nav52'});">手Q部落</a></li>
+                                <li><a href="javascript:void(0)" target="_blank" title="微信圈子" onclick="TGDialogS('weiquan');pgvSendClick({hottag:'main.mainNav.nav53'});">微信圈子</a></li>
+                                <li><a href="javascript:void(0)" title="官方微博" onclick="pgvSendClick({hottag:'main.mainNav.nav54'});">官方微博</a></li>
+                                <li><a href="javascript:void(0)" title="微信公众号" onclick="TGDialogS('weixin');pgvSendClick({hottag:'main.mainNav.nav55'});">微信公众号</a></li>
+                                <li><a href="javascript:void(0)" title="手Q公众号" onclick="TGDialogS('qq');pgvSendClick({hottag:'main.mainNav.nav56'});">手Q公众号</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="n_a" href="">
+                            玩家支持
+                            <em>PLAYER</em></a>
+                            <ul class="xx">
+                                <li><a href="javascript:void(0)" target="_blank" title="客服专区" onclick="TGDialogS('kefu');pgvSendClick({hottag:'main.mainNav.nav61'});">客服专区</a></li>
+                                <li><a href="javascript:void(0)" title="礼包兑换" onclick="pgvSendClick({hottag:'main.mainNav.nav64'});" target="_blank">礼包兑换</a></li>
+                                <li><a href="javascript:void(0)" title="自助服务" onclick="pgvSendClick({hottag:'main.mainNav.nav63'});" target="_blank">自助服务</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <script>
+                        $(".n_ul>li").mouseover(function(){
+                            $(this).children("ul").css({
+                                display:"block"
+                            })
+                        })
+                        $(".n_ul>li").mouseout(function(){
+                            $(this).children("ul").css({
+                                display:"none"
+                            })
+                        })
+                    </script>
+
+
+                </div>
+                <div class="login">
+                    <a href="" class="pic"></a>
+                    <div class="txt">
+                        <a href="javascript:void(0)">欢迎登陆</a>
+                        <a href="javascript:void(0)">登陆后查看游戏成绩</a>
+                    </div>
+                </div>
+            </div>
+            <!--subnav-->
+        </div>
+        <!--导航部分脚本-->
+        <script>
+            $(function(){
+                $(".nav").mouseover(function(){
+                    $("#J_subNav").css({display:"block"});
+                })
+                        .mouseout(function(){
+                            $("#J_subNav").css({display:"none"})
+                        })
+            })
+        </script>
+        <!-- 底部 -->
+        <div class="bottom">
+            <div class="center">
+
+                <div class="artfont">
+                    <img src="../images/HERO.png" alt=""/>
+                    <p class="smoke"></p>
+                </div>
+                <script>
+                    $(function(){
+                        var m=0;
+                        setInterval(function(){
+                            m--;
+                            $(".bottom .smoke").css({
+                                backgroundPosition :0+""+m+"px"
+                            })
+                        },100)
+                    })
+                </script>
+                <div class="hot">
+                    <img src="../img/1hot.jpg" alt=""/>
+                    <img src="../img/2hot.jpg" alt=""/>
+                    <img src="../img/3hot.jpg" alt=""/>
+                    <img src="../img/4hot.jpg" alt=""/>
+                    <img src="../img/5hot.jpg" alt=""/>
+                    <p class="h_left"></p>
+                    <p class="h_right"></p>
+                </div>
+                <!--热门英雄轮播图js-->
+                <script>
+                //位置参数
+                    var config = [{width: 200, top: 20, left: 0, opacity: 0.2, zIndex: 2}, //0
+                        {width: 300, top: 70, left: 166, opacity: 0.8, zIndex: 3}, //1
+                        {width: 500, top: 100, left: 363, opacity: 1, zIndex: 4}, //2
+                        {width: 300, top: 70, left: 746, opacity: 0.8, zIndex: 3}, //3
+                        {width: 200, top: 20, left: 999, opacity: 0.2, zIndex: 2} //4
+                    ];
+                    $(function(){
+//
+                        for(var i=0;i<config.length;i++){
+                            animate4($(".hot img")[i],config[i]);
+                        }
+                        $(".hot .h_left").click(function(){
+                            config.unshift(config.pop());
+                            for(var i=0;i<config.length;i++){
+                                animate4($(".hot img")[i],config[i]);
+                            }
+                        })
+                        $(".hot .h_right").click(function(){
+                            config.push(config.shift());
+                            for(var i=0;i<config.length;i++){
+                                animate4($(".hot img")[i],config[i]);
+                            }
+                        })
+                    })
+                    var h_timer;
+                    clearInterval(h_timer);
+                    hrotate();
+                    function hrotate(){
+                        h_timer=setInterval(function(){
+                            config.push(config.shift());
+                            for(var i=0;i<config.length;i++){
+                                animate4($(".hot img")[i],config[i]);
+                            }
+                        },10000)
+                    }
+                    $(".hot").mouseover(function(){
+                        clearInterval(h_timer);
+                    })
+                    $(".hot").mouseout(function(){
+                        hrotate();
+                    })
+                </script>
+                <div class="tab">
+                    <p>周免英雄</p>
+                    <ul>
+                        <li class="l1 fl "><img class="m_c" src="../img/115-freehover.png" alt=""/></li>
+                        <li class="l2 fl"><img src="../img/116no.jpg" alt=""/></li>
+                        <li class="l3 fl"><img src="../img/117no.jpg" alt=""/></li>
+                        <li class="l4 fl"><img src="../img/118no.jpg" alt=""/></li>
+                        <li class="l5 fl"><img src="../img/119no.jpg" alt=""/></li>
+                        <li class="l6 fl"><img src="../img/120no.jpg" alt=""/></li>
+                        <li class="l7 fl"><img src="../img/121no.jpg" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(function () {
+                $(".tab li").mouseover(function(){
+                    $(".tab li").eq(0).children().attr("src","../img/"+115+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(1).children().attr("src","../img/"+116+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(2).children().attr("src","../img/"+117+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(3).children().attr("src","../img/"+118+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(4).children().attr("src","../img/"+119+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(5).children().attr("src","../img/"+120+"no.jpg").css({width:"69"});
+                    $(".tab li").eq(6).children().attr("src","../img/"+121+"no.jpg").css({width:"69"});
+                    var index=$(this).index();
+                    $(this).children().attr("src","../img/"+(115+index)+"-freehover.png").css({width:"224"});
+                    $(this).siblings().children().css({
+                        width:69
+                    });
+                });
+            })
+        </script>
+    </div>
+    <!-- 第二页 -->
+    <div class="section page2">
+        <!-- 资料旋转动画展示-->
+        <!--选项框-->
+        <div class="center audios">
+            <ul>
+                <li class="l_current">坦克</li>
+                <li>战士</li>
+                <li>刺客</li>
+                <li>法师</li>
+                <li>射手</li>
+                <li>辅助</li>
+            </ul>
+        </div>
+        <!--选项框js部分-->
+        <script>
+            $(function(){
+                $(".audios ul li").mouseover(function () {
+                    $(this).addClass("l_current").siblings().removeClass("l_current");
+                })
+            })
+        </script>
+        <div id="wrapper">
+            <div class="center">
+                <div class="bj"></div>
+                <div id="photos">
+                    <img class="img" id="m1" src="../img/1.jpg" alt=""/>
+                    <img class="img" id="m2" src="../img/2.jpg" alt=""/>
+                    <img class="img" id="m3" src="../img/3.jpg" alt=""/>
+                    <img class="img" id="m4" src="../img/4.jpg" alt=""/>
+                    <img class="img" id="m5" src="../img/5.jpg" alt=""/>
+                    <img class="img" id="m6" src="../img/6.jpg" alt=""/>
+                    <img class="img" id="m7" src="../img/7.jpg" alt=""/>
+                    <img class="img" id="m8" src="../img/8.jpg" alt=""/>
+                    <img class="img" id="m9" src="../img/9.jpg" alt=""/>
+                    <img class="img" id="m10" src="../img/10.jpg" alt=""/>
+                    <img class="img" id="m11" src="../img/11.jpg" alt=""/>
+                    <img class="img" id="m12" src="../img/12.jpg" alt=""/>
+                    <img class="img" id="m13" src="../img/13.jpg" alt=""/>
+                    <img class="img" id="m14" src="../img/14.jpg" alt=""/>
+                    <div id="plate"></div>
+                </div>
+            </div>
+            <!--跳转后技能参数部分-->
+            <div class="cover" id="cover">
+                <h3 class="cover-title">燃魂重炮</h3>
+                <h2 class="cover-name">黄忠</h2>
+                <span class="herodetail-sort"><i class="herodetail-sort-5"></i></span>
+                <ul class="cover-list">
+                    <li>
+                        <em class="cover-list-text fl">生存能力</em>
+                        <span class="cover-list-bar bar1 fl"><i class="ibar" style="width:20%"></i></span>
+                    </li>
+                    <li>
+                        <em class="cover-list-text fl">攻击伤害</em>
+                        <span class="cover-list-bar bar2 fl"><i class="ibar" style="width:90%"></i></span>
+                    </li>
+                    <li>
+                        <em class="cover-list-text fl">技能效果</em>
+                        <span class="cover-list-bar bar3 fl"><i class="ibar ibar1" style="width:40%"></i></span>
+                    </li>
+                    <li>
+                        <em class="cover-list-text fl">上手难度</em>
+                        <span class="cover-list-bar bar4 fl"><i class="ibar ibar1" style="width:30%"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cover_r" >
+                老兵一度认为自己到了该退休的年龄了。
+                夕阳照射在断垣残壁上，年迈的躯体伤痕累累。拼命半辈子，好像什么都留不住：金钱，家人，城池，战友……
+                人，不服老不行。不然呢？连用惯的机关炮也已锈迹斑斑。
+                面对魔种好像也曾无所畏惧过，面对千军万马好像也曾自信满满过。可是……魔道？或者那什么玩意儿？？许多同伴接受了，为了更强大的力量。毕竟，他们的领导者也是如此。
+                妖术！
+                唯有他嗤之以鼻，拒绝认可。
+                “顽固不化的老爷子。”“自暴自弃啊。”“毕竟嘛，半截身体都入土了，舍不得折腾也是必然的嘛。”……
+            </div>
+            <!--旋转动画js部分-->
+            <script>
+                var timer;
+                var rotatey=0;
+
+                var photos=document.getElementById("photos");
+                var plate=document.getElementById("plate");
+                var cover=document.getElementById("cover");
+                var rotateImage=document.getElementById("rotateImage");
+                var wrapper=document.getElementById("wrapper");
+                var index;
+
+                var obj_pic=["../img/15.jpg","../img/16.jpg","../img/17.jpg","../img/18.jpg","../img/19.jpg","../img/20.jpg","../img/21.jpg"
+                    , "../img/22.jpg","../img/23.jpg","../img/24.jpg","../img/25.jpg","../img/26.jpg","../img/27.jpg","../img/28.jpg"]
+                var obj=[
+                    {"rotateY":25, "translateZ":380},{"rotateY":51, "translateZ":380},{"rotateY":77, "translateZ":380},{"rotateY":102, "translateZ":380},{"rotateY":128, "translateZ":380},{"rotateY":154, "translateZ":380}
+                    ,{"rotateY":180, "translateZ":380},{"rotateY":205, "translateZ":380},{"rotateY":231, "translateZ":380}
+                    ,{"rotateY":257, "translateZ":380},{"rotateY":282, "translateZ":380},{"rotateY":308, "translateZ":380},{"rotateY":334, "translateZ":380}
+                    ,{"rotateY":360, "translateZ":380}
+                ];
+                var obj_title=["沧海之曜","噬灭日蚀","沧海之曜","噬灭日蚀","绝代智谋","森之风灵","圣域余晖","噬灭日蚀","绝代智谋","森之风灵","圣域余晖","噬灭日蚀","绝代智谋","森之风灵"]
+                var obj_name=["阳小玲","李滔","黄泽鹏","彭靖峰","成吉思汗","马克菠萝","雅典娜","赵云","花木兰","廖思远","孙悟空","唐曾","猪八戒","沙和尚"]
+                $(function(){
+                    var img=$("#photos img");
+                    var deg=360/img.length;
+                    //旋转动画函数
+                   circle();
+                   function circle(){
+                       for(var i=0;i<img.length;i++){
+                           animate5(img[i],obj[i]);
+                       }
+                   }
+                   timer=setInterval(function(){
+                       if(rotatey==3600){
+                           rotatey=0;
+                       }
+                       photos.style.transform = "rotateY("+ (rotatey++)*0.1 +"deg)";
+                   },15)
+               })
+            </script>
+            <!--鼠标放入停止-->
+            <script>
+                $(function(){
+                    $("#photos img").mouseover(function(){
+                        clearInterval(timer);
+                        $("#cover").stop().animate({
+                            opacity:1
+                        },1000,function(){});
+                        $(".cover_r").stop().animate({
+                            opacity:1
+                        },1000,function(){});
+                        $(this).stop().animate({
+                                    width:"150%",
+                                    height:"150%",
+                                    transform:"",
+                                },1000,function(){}
+                        ).siblings("img").stop().animate({
+                                    width:"10%",height:"10%"
+                                },1000,function(){}
+                        );
+                        $(".cover h3").text(obj_title[$(this).index()]);
+                        $(".cover h2").text(obj_name[$(this).index()]);
+
+                        var bar1=Math.random()*164+10;
+                        var bar2=Math.random()*164+10;
+                        var bar3=Math.random()*164+10;
+                        var bar4=Math.random()*164+10;
+
+                        $(".cover-list span").eq(0).css({width:bar1});
+                        $(".cover-list span").eq(1).css({width:bar2});
+                        $(".cover-list span").eq(2).css({width:bar3});
+                        $(".cover-list span").eq(3).css({width:bar4});
+
+                    })
+                            .mouseout(function(){
+                                clearInterval(timer);
+                                timer=setInterval(function(){
+                                    if(rotatey==3600){
+                                        rotatey=0;
+                                    }
+                                    photos.style.transform = "rotateY("+ (rotatey++)*0.1 +"deg)";
+                                },15);
+                                $("#photos img").stop().animate({
+                                    width:"100%",
+                                    height:"100%",
+                                },1000,function(){})
+                                $("#cover").stop().animate({
+                                    opacity:0
+                                },1000,function(){});
+                                $(".cover_r").stop().animate({
+                                    opacity:0
+                                },1000,function(){});
+                            })
+                })
+            </script>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

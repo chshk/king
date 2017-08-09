@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/animate_l.css"/>
+    <link rel="stylesheet" href="css/content_l.css"/>
+    <link rel="stylesheet" href="css/common_l.css"/>
+    <script src="js/jquery-1.12.4.js"></script>
+    <style>
+        body {
+            width: 100%;
+            background-color: skyblue;
+        }
+
+        .banxin {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .aniview {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .slow {
+            -moz-animation-duration: 1.5s;
+            -moz-animation-delay: 1s;
+            -webkit-animation-duration: 1.5s;
+            -webkit-animation-delay: 1s
+        }
+
+        .rect {
+            height: 50px;
+        }
+
+        .pic {
+            width: 200px;
+            height: 200px;
+            margin: 0 35px;
+            float: left;
+        }
+
+        img {
+            height: 200px;
+        }
+    </style>
+</head>
+<div>
+<!--头部B-->
+<div class="top_t">
+    <div class="banxin">
+        <ul>
+            <li class="li1 fl"><a href="#"></a></li>
+            <li class="li2 fl"><a href=""><img src="img/t_li2.jpg" alt=""></a></li>
+            <li class="li3 fl"><h3 class="t_logo1"><a href="">成长守护平台</a></h3>
+                <h3 class="t_logo2"><a href="">腾讯游戏排行榜</a>
+                <i class="last"></i></h3>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="aniview" av-animation="fadeInUp" style="height: 588px;width: 100%;">
+<div class="top_c">
+<div class="top_nav">
+    <div class="banxin">
+        <h1 class="top_nav_logo">
+            <a href="">王者荣耀</a>
+        </h1>
+        <ul class="top_nav_ul">
+            <li><a href="index.html">
+                官网首页
+                <em>HOME</em>
+            </a></li>
+            <li><a href="pages/shipin.html">
+                游戏资料
+                <em>DATA</em>
+            </a></li>
+            <li><a href="">
+                攻略中心
+                <em>RAIDERS</em>
+            </a></li>
+            <li><a href="hero/html/heroData.html">
+                赛事中心
+                <em>MATCH</em>
+            </a></li>
+            <li><a href="socialzone/social.html">
+                社区互动
+                <em>COMMUNITY</em>
+            </a></li>
+            <li><a href="">
+                玩家支持
+                <em>PLAYER</em>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<!--隐藏的tab栏B-->
+<div class="under_nav" id="under_nav">
+    <div class="banxin">
+        <ul class="inner_nav">
+            <li>
+                <a href="">版本介绍</a>
+                <a href="">游戏介绍</a>
+                <a href="">英雄资料</a>
+                <a href="">故事站</a>
+                <a href="">游戏壁纸</a>
+            </li>
+            <li>
+                <a href="">英雄攻略</a>
+                <a href="">视频中心</a>
+            </li>
+            <li>
+                <a href="">KPL职业联赛</a>
+                <a href="">KOC王者城市赛</a>
+                <a href="">QGC夏季联赛</a>
+                <a href="">TGA大奖赛</a>
+                <a href="">WGC精英赛</a>
+                <a href="">王者高校赛</a>
+            </li>
+            <li>
+                <a href="">官方助手</a>
+                <a href="">手Q部落</a>
+                <a href="">微信圈子</a>
+                <a href="">官方微博</a>
+                <a href="">微信公众号</a>
+                <a href="">手Q订阅号</a>
+            </li>
+            <li>
+                <a href="">客服专区</a>
+                <a href="">礼包兑换</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--隐藏的tab栏E-->
+</div>
+</div>
+<!--头部E-->
+<!--首页B-->
+<div class="banxin">
+    <div class="Nav">
+        <i class="Nav_logo fl"></i>
+        <a href="">王者荣耀首页</a>
+        <span>></span>
+        <span>王者学院</span>
+    </div>
+    <div class="aniview" av-animation="fadeInUp" style="height: 350px;">
+        <div class="nav_l fl">
+            <li><a href="#"><img src="img/1497407134.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="img/1497581312.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="img/1497927993.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="img/1498097737.jpg" alt=""/></a></li>
+            <div class="list">
+                <i class="current">1</i>
+                <i>2</i>
+                <i>3</i>
+                <i>4</i>
+            </div>
+            <div class="nav_c">
+                <div class="nav_c_t"><img src="img/1497513873.jpg" alt=""/></div>
+                <div class="nav_c_b"><img src="img/1497672636.jpg" alt=""/></div>
+            </div>
+        </div>
+        <!--<div class="nav_l"><a href="#"></a></div>-->
+
+        <div class="nav_r">
+            <div class="nav_r_search">
+                <div class="nav_r_text">
+                    <input type="text" placeholder="输入你想查询的英雄"/></div>
+                <a href="#" class="sousuo"><i></i></a>
+            </div>
+            <div class="nav_r">
+                <ul class="nav_r_ul" id="nav_r_ul">
+                    <li class="tab-item active">最新</li>
+                    <li class="tab-item">英雄</li>
+                    <li class="tab-item">新手</li>
+                    <li class="tab-item">同人</li>
+                    <li class="tab-item">官方</li>
+                </ul>
+                <div class="nav_r_ul_content">
+                    <ul class="nav_content_news selected">
+                        <li><a href="#">穿越草丛一箭三秒,成吉思汗恐怖爆发</a><span class="data">06/16</span></li>
+                        <li><a href="#">先下两局不慎翻车,XQ遗憾离开KPL</a><span class="data">06/16</span></li>
+                        <li><a href="#">天啦噜！空铁列车战队粉丝应援，满屏都是大长腿！</a><span class="data">06/16</span></li>
+                        <li><a href="#">战报:WF让二追四神话,evildoer狄仁杰封神</a><span class="data">06/16</span></li>
+                        <li><a href="#">团战先手射手英雄,后羿输出控制两不误</a><span class="data">06/16</span></li>
+                        <li><a href="#">切入型战士赵云,先手团控七进七出</a><span class="data">06/16</span></li>
+                        <li><a href="#">团控法师英雄钟馗,纯输出一钩一命</a><span class="data">06/16</span></li>
+                        <li><a href="#">辅助也能carry,孙膑输出堪比法师</a><span class="data">06/16</span></li>
+                        <li><a href="#">支援全场,刘邦完美诠释最佳队友</a><span class="data">06/16</span></li>
+                    </ul>
+                </div>
+                <div class="nav_r_ul_content">
+                    <ul class="nav_content_news">
+                        <li><a href="#">暴力团控中单，输出钟馗一钩定胜负</a><span class="data">06/16</span></li>
+                        <li><a href="#">人人都能1V2,上单热门五虎将盘点</a><span class="data">06/16</span></li>
+                        <li><a href="#">干将莫邪被禁也不怕,中单法王分分钟带你超神</a><span class="data">06/16</span></li>
+                        <li><a href="#">团战不能忽视的队友,五大上分辅助比拼</a><span class="data">06/16</span></li>
+                        <li><a href="#">盘点王者荣耀版本八大强势法师</a><span class="data">06/16</span></li>
+                        <li><a href="#">淬命双剑,干将莫邪</a><span class="data">06/16</span></li>
+                        <li><a href="#">刘备、李元芳成赛场新宠,打野型射手或迎来春天</a><span class="data">06/16</span></li>
+                        <li><a href="#">细数王者荣耀排位赛S7赛季那些热门辅助</a><span class="data">06/16</span></li>
+                        <li><a href="#">控制流打野,本肉老夫子驰骋野区</a><span class="data">06/16</span></li>
+                    </ul>
+                </div>
+                <div class="nav_r_ul_content">
+                    <ul class="nav_content_news">
+                        <li><a href="#">冷门装备也有用，一招教你正确出装</a><span class="data">06/16</span></li>
+                        <li><a href="#">小装备大学问，合理搭配装备轻松上分</a><span class="data">06/16</span></li>
+                        <li><a href="#">铭文的那些事儿</a><span class="data">06/16</span></li>
+                        <li><a href="#">"移花接木"法装刺客用一装备另类玩法解析</a><span class="data">06/16</span></li>
+                        <li><a href="#">射手英雄为何青睐于末世？！</a><span class="data">06/16</span></li>
+                        <li><a href="#">王者荣耀装备解析——攻击篇</a><span class="data">06/16</span></li>
+                        <li><a href="#">战士英雄为何钟爱暗影战斧？</a><span class="data">06/16</span></li>
+                        <li><a href="#">半肉出装的必备装备,极寒风暴</a><span class="data">06/16</span></li>
+                        <li><a href="#">战场神器！五大高性价比装备盘点</a><span class="data">06/16</span></li>
+                    </ul>
+                </div>
+                <div class="nav_r_ul_content">
+                    <ul class="nav_content_news">
+                        <li><a href="#">【头像走一波】第110期:地狱岩魂廉颇</a><span class="data">06/16</span></li>
+                        <li><a href="#">【父亲节表情包】诸葛亮:父亲节快乐</a><span class="data">06/16</span></li>
+                        <li><a href="#">【条漫】如何打动女孩子</a><span class="data">06/16</span></li>
+                        <li><a href="#">【刘邦同人】双面君主之慢的剑</a><span class="data">06/16</span></li>
+                        <li><a href="#">【条漫】第109期:白执事赵云</a><span class="data">06/16</span></li>
+                        <li><a href="#">【头像走一波】当然是选择原谅</a><span class="data">06/16</span></li>
+                        <li><a href="#">【芈月表情包】这都抓不住,要不给你们再添五个队友？</a><span class="data">06/16</span></li>
+                        <li><a href="#">【头像走一波】第108期:超能战警曹操</a><span class="data">06/16</span></li>
+                        <li><a href="#">【条漫】你永远猜不到</a><span class="data">06/16</span></li>
+                    </ul>
+                </div>
+                <div class="nav_r_ul_content">
+                    <ul class="nav_content_news">
+                        <li><a href="#">【一图识英雄】孙悟空重做归来，谁敢与我为敌</a><span class="data">06/16</span></li>
+                        <li><a href="#">【一图识英雄】峡谷最虐狗英雄干将莫邪上线</a><span class="data">06/16</span></li>
+                        <li><a href="#">【一图识英雄】舞技担当小姐姐貂蝉的使用诀窍</a><span class="data">06/16</span></li>
+                        <li><a href="#">【一图解荆轲】信任之刃荆轲重做归来</a><span class="data">06/16</span></li>
+                        <li><a href="#">新版更新后各大玩法细节抢先看</a><span class="data">06/16</span></li>
+                        <li><a href="#">基友恋人一起来战 好友关系玩法解析</a><span class="data">06/16</span></li>
+                        <li><a href="#">成就系统介绍 享受手握奖杯的快感</a><span class="data">06/16</span></li>
+                        <li><a href="#">《王者荣耀》5.16-5.22限免英雄阵容搭配</a><span class="data">06/16</span></li>
+                        <li><a href="#">雾里看花 迷雾模式玩法介绍</a><span class="data">06/16</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tab-item.js"></script>
+    <!--首页E-->
+    <!--王者学院B-->
+    <div class="aniview" av-animation="slideInLeft"
+         style="height: 150px;margin-top: 90px;width: 100%;position: relative;">
+        <div class="modle_l">
+            <div class="modle_l_t">
+                <div class="modle_l_t_l">
+                    <div class="modle_l_t_logo fl"></div>
+                    <span class="modle_l_t_text fl">&nbsp;&nbsp;王者学院</span>
+                </div>
+            </div>
+            <div class="modle_l_c">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="modle_l_c_icon1"></i>
+                            <span>铭文模拟器</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="modle_l_c_icon2"></i>
+                            <span>局内道具</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="modle_l_c_icon3"></i>
+                            <span>英雄资料</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="modle_l_c_icon4"></i>
+                            <span>我要投稿</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="modle_r">
+            <div class="modle_r_t">
+                <div class="modle_r_t_l">
+                    <div class="modle_r_hero_logo fl"></div>
+                    <span class="modle_r_hero_text fl">&nbsp;&nbsp;新英雄</span>
+                </div>
+                <div class="modle_r_t_r">
+                    <span class="modle_r_hero_time">上线时间:2017年5月22日</span>
+                </div>
+            </div>
+            <div class="modle_r_c">
+                <div class="modle_r_pic">
+                </div>
+                <div class="modle_r_word">
+                    <ul>
+                        <li>
+                            <span class="modle_r_word_heroName">干将莫邪</span>
+                            <span class="modle_r_word_heroType">法师</span>
+                        </li>
+                        <li>雌雄双剑 心流狙击</li>
+                        <li>
+                            <a href="#">英雄视频</a>
+                            <a href="#">英雄专题</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--王者学院E-->
+    <!--王牌栏目B-->
+    <div class="aniview rect" av-animation="rotateInUpRight" style="height: 320px;margin-top: 65px;">
+        <div class="kingTab">
+            <div class="kingTab_logo fl"></div>
+            <span class="kingTab_text fl">&nbsp;&nbsp;王牌栏目</span>
+        </div>
+        <ul class="kingTab_content">
+            <li>
+                <div><img src="img/lanmu.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+            <li>
+                <div><img src="img/lanmu1.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+            <li>
+                <div><img src="img/lanmu2.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+            <li>
+                <div><img src="img/lanmu3.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+            <li>
+                <div><img src="img/lanmu4.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+            <li>
+                <div><img src="img/lanmu5.jpg" alt=""/></div>
+                <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+            </li>
+        </ul>
+    </div>
+<!--王牌栏目E-->
+<!--教学视频B-->
+<div class="aniview rect" av-animation="rotateInUpLeft" style="height: 420px;width: 100%;margin-top: 65px;">
+    <div class="teachTv">
+        <div class="teachTv_t">
+            <div class="teachTv_t_logo fl"></div>
+            <span class="teachTv_t_text">&nbsp;&nbsp;教学视频</span>
+            <div class="teachTv_t_more fr">
+                <a href="#"><span>&nbsp;更多视频</span></a>
+            </div>
+        </div>
+    </div>
+    <ul class="teachTv_content">
+        <li>
+            <div><img src="img/tv1.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv2.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv3.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv4.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv5.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv6.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv7.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv8.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv9.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv10.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv11.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+        <li>
+            <div><img src="img/tv12.jpg" alt=""/></div>
+            <div class="kingTab_content_text1">战报:甜蜜的复仇！AG超玩会4:0横扫AS仙阁</div>
+        </li>
+    </ul>
+</div>
+<!--教学视频E-->
+<!--底部B-->
+    <!--底部E-->
+</div>
+<div class="aniview pic slow" av-animation="fadeInLeft" style="width: 100%;height: 362px;background: url(img/bg_footer.jpg) no-repeat center center;margin: 0">
+    <div class="weibu banxin clearfix">
+        <p class="wb_p1 fl"><a href="#"></a></p>
+        <ul class="wb_ul1 fl">
+            <li><a href="#"><img src="img/spk.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/youjiu.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/mofang.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/youxiduo.png" alt=""/></a></li>
+
+        </ul>
+        <div class="search fr">
+            <input type="text" placeholder="合作媒体"/>
+
+            <div class="jiantou"></div>
+            <div class="upkuang">
+                <ul>
+                    <li><a href="#">全球电竞网</a></li>
+                    <li><a href="#">52pk</a></li>
+                    <li><a href="#">九游</a></li>
+                    <li><a href="#">遨游</a></li>
+                    <li><a href="#">易游</a></li>
+                    <li><a href="#">九游</a></li>
+                    <li><a href="#">魔方网</a></li>
+                    <li><a href="#">17173</a></li>
+                    <li><a href="#">爱拍</a></li>
+                    <!--<li><a href="#">网易</a></li>-->
+                    <!--<li><a href="#">32484</a></li>-->
+                    <!--<li><a href="#">18183</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--这是尾部E-->
+    <!--这是脚本B-->
+    <div class="jiaoben banxin">
+        <div class="jiaoben_left fl">
+            <p class="jiaoben_p1">温馨提示：本游戏适合16岁(含)以上玩家娱乐</p>
+
+            <p>抵制不良游戏拒绝盗版游戏注意自我保护谨防受骗上当适度游戏益脑沉迷游戏伤身合理安排时间享受健康生活 </p>
+        </div>
+        <div class="jiaoben_right fr">
+            <p class="jiaoben_p2"><a href="#">腾讯互动娱乐</a><span>|</span>
+                <a href="#">服务条款</a><span>|</span>
+                <a href="#"> 广告服务</a><span>|</span>
+                <a href="#">腾讯游戏招聘</a><span>|</span>
+                <a href="#">腾讯游戏客服</a><span>|</span>
+                <a href="#">游戏活动 </a><span>|</span>
+                <a href="#">游戏地图</a><span>|</span>
+                <a href="#">网站导航</a>
+            </p>
+
+            <p> COPYRIGHT © 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.腾讯公司 版权所有</p>
+
+            <p>粤网文[2014]0633-233号 | 新出网证（粤）字010号 | 文网游备字[2016]M-CSG 0059</p>
+
+            <p>全国文化市场统一举报电话：12318</p>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.aniview.min.js"></script>
+<script>
+    var options = {
+        animateThreshold: 100,
+        scrollPollInterval: 20
+    };
+    $('.aniview').AniView(options);
+</script>
+</html>

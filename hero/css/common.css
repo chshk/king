@@ -1,0 +1,151 @@
+/*css³õÊ¼»¯´úÂë*/
+html, body, h1, h2, h3, ul, li, dl, dt, dd, p, image, input {
+    margin: 0;
+    padding: 0;
+}
+input,button {
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    border: none;
+}
+h1, h2, h3, b {
+    font-weight: normal;
+}
+i {
+    font-style: normal;
+}
+body {
+    background-color: #F6F6F6;
+    font: normal normal 12px Microsoft YaHei;
+    color: #666;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.sub-nav {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: -50px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}
+
+.sub-nav-inner {
+    width: 982px;
+    height: 176px;
+    padding-left: 218px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.logo {
+    top: -473px;
+    left: 0;
+    width: 218px;
+    height: 152px;
+}
+
+.view-btn {
+    position: absolute;
+    z-index: 999;
+    width: 500px;
+    height: 186px;
+    top: -190px;
+    left: 0;
+    outline: none;
+}
+
+.main-nav {
+    width: 982px;
+    margin: 0 auto;
+    padding-left: 218px;
+}
+
+.main-nav li {
+    float: left;
+    display: inline;
+    width: 100px;
+    height: 84px;
+    padding: 0 5px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.main-nav a {
+    display: block;
+    width: 100px;
+    height: 52px;
+    padding: 20px 0 0;
+    color: #e2e2e2;
+    font-size: 16px;
+}
+
+.main-nav i {
+    display: block;
+    font-size: 16px;
+}
+
+.main-nav em {
+    display: block;
+    padding-top: 5px;
+    -webkit-transform: scale(0.75);
+    -o-transform: scale(1);
+    color: #858792;
+}
+
+.down-nav {
+    float: left;
+    display: inline;
+    width: 100px;
+    padding: 2px 5px 0;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.down-nav a {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding: 0;
+    font-size: 14px;
+    color: #e2e2e2;
+}
+
+.down-nav a:hover {
+    color: #28a0e7;
+    text-decoration: underline;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}

@@ -1,0 +1,247 @@
+html,body{
+    perspective:5000px;
+}
+.center {     
+	width: 1200px;     
+	margin: 0 auto; 
+	position: relative;
+} 
+/*第一页*/
+.page1 {
+}
+/*第一版页*/
+.page1 .top {
+	height: 42px;
+	background-color: #fff;
+}
+.page1 .top li {
+	float: left;
+}
+.page1 .top .li1 a {
+	display: inline-block;
+	width: 205px;
+	height: 42px;
+	padding-right: 15px;
+	background: url(../img/top.png) no-repeat 0 -40px;
+	margin-left: 114px;
+}
+.page1 .top .li2 a {
+	display: inline-block;
+	width: 230px;
+	height: 42px;
+}
+.page1 .top .li3 .grow {
+	margin-left: 312px;
+	float: left;
+	background: url(../img/oo.png) no-repeat center left;
+	text-indent: 20px;
+	line-height: 42px;
+	width: 118px;
+}
+.page1 .top .li3 .rank {
+	float: left;
+	line-height: 42px;
+}
+.page1 .top .li3 .rank .letter {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	background: url(../img/top.png) no-repeat -150px -134px;
+}
+.page1 .top .li3 a {
+	color: #464646;
+	font-size: 12px;
+	font-weight: 200;
+}
+.page1 .top .li3 a:hover {
+	color: #ff4e00;
+}
+/*第一版导航栏*/
+.page1 .nav {
+	height: 84px;
+	background-color: #070306;
+}
+.page1 .nav .center {
+	height: 84px;
+}
+.page1 .nav .logo a {
+	z-index: 99;
+	text-indent: -999px;
+	position: absolute;
+	width: 218px;
+	height: 152px;
+	left: 0;
+	top: 0;
+	background: url(../img/logo.png) no-repeat center top;
+}
+.page1 .nav .s_subnav{
+	width: 1200px;
+	height: 84px;
+	margin-top: -155px;
+}
+.page1 .nav .n_ul {
+	padding-left: 291px;
+}
+.page1 .nav .n_ul .xx{
+	display: none;
+	position: absolute;
+	background-color: rgba(12,8,12,.8);
+	z-index: 22;
+}
+.page1 .nav .n_ul .xx li{
+	width: 122px;
+	line-height: 30px;
+	text-align: center;
+}
+.page1 .nav .n_ul .xx li:hover{
+	border-bottom: 2px solid red;
+}
+.page1 .nav .n_ul .xx a{
+	color: #ffffff;
+}
+.page1 .nav .n_ul>li {
+	float: left;
+	text-align: center;
+}
+.page1 .nav .n_ul>li:hover{
+	background: linear-gradient(black,red);
+}
+.page1 .nav .n_ul  .n_a {
+	display: block;
+	width: 122px;
+	height: 64px;
+	padding: 20px 0 0;
+	color: #c9c9dd;
+	font-size: 18px;
+	line-height: 30px;
+	/*font-family: 'light';*/
+}
+.page1 .nav .n_ul li em {
+	display: block;
+	padding-top: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #858792;
+	/*font-family: 'light';*/
+	font-style: normal;
+}
+.page1 .login {
+	position: absolute;
+	width: 252px;
+	height: 44.8px;
+	top: 21px;
+	right: -84px;
+}
+.page1 .login .pic {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	border: 1px solid #d9ad50;
+	border-radius: 42px;
+	background: url(../img/unlogin_pic.png) no-repeat center top;
+}
+.page1 .login .txt a:first-child {
+	position: absolute;
+	top: 2px;
+	left: 57px;
+	font-size: 16px;
+	color: #fff;
+}
+.page1 .login .txt a:last-child {
+	position: absolute;
+	top: 24px;
+	left: 58px;
+	color: #858792;
+	font: normal normal 14px/1.5 Microsoft Yahei;
+}
+/*第一页火*/
+
+/*第一页底部*/
+.bottom{
+	height: 926px;
+	/*background: url("../img/bj1.jpg")no-repeat center -84px;*/
+	background: #000;
+	position: relative;
+}
+
+/*热门英雄轮播图*/
+.bottom .artfont{
+	width: 200px;
+	height: 132px;
+	position: absolute;
+	left: 50%;
+	margin-top: 80px;
+	margin-left: -50px;
+	background: linear-gradient(to top,#e35411,black);
+	border-radius: 20px;
+	text-align: center;
+	line-height: 150px;
+
+}
+.bottom .artfont img{
+	width: 150px;
+	height: 180px;
+}
+.bottom .artfont .smoke{
+	position: absolute;
+	border-radius: 20px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;
+	background: url("../images/smoke.png");
+}
+.bottom .hot{
+	position: absolute;
+	top: 200px;
+}
+.bottom .hot img{
+	width: 250px;
+	height: 400px;
+	position: absolute;
+}
+.bottom .hot .h_left{
+	/*display: none;*/
+	cursor: pointer;
+	z-index: 33;
+	position: absolute;
+	top: 228px;
+	left: 100px;
+	width: 76px;
+	height: 112px;
+	background: url("../img/prev.png")no-repeat;
+}
+.bottom .hot .h_right{
+	/*display: none;*/
+	cursor: pointer;
+	z-index: 33;
+	position: absolute;
+	top: 232px;
+	left: 1036px;
+	width: 76px;
+	height: 112px;
+	background: url("../img/next.png")no-repeat;
+}
+.bottom .tab{
+	position: absolute;
+	top: 805px;
+	bottom: 500px;
+	left:50%;
+	margin-left: -322px;
+	width: 644px;
+	background-color: rgba(31,67,105,.8);
+	padding: 8px 20px 0px;
+}
+.bottom .tab p{
+	color: #ffffff;
+	line-height: 40px;
+}
+.bottom .tab ul li img {
+	width: 69px;
+	height: 69px;
+}
+.bottom .tab ul .m_c{
+	width: 224px;
+}

@@ -1,0 +1,52 @@
+/*css³õÊ¼»¯´úÂë*/
+html, body, h1, h2, h3, ul, li, dl, dt, dd, p, image, input {
+    margin: 0;
+    padding: 0;
+}
+input,button {
+    border: none;
+    outline: none;
+}
+a {
+    color: #808080;
+    text-decoration: none;
+    /*font-size: 12px;*/
+}
+ul {
+    list-style: none;
+}
+img {
+    border: none;
+}
+h1, h2, h3, b {
+    font-weight: normal;
+}
+i {
+    font-style: normal;
+}
+body {
+    background-color: #f5f4f3;
+    font: normal normal 12px 'Î¢ÈíÑÅºÚ';
+    color: #666;
+}
+.center {
+    width: 980px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
